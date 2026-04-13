@@ -53,14 +53,13 @@
     <div class="field">
       <label class="field__label" for="route-input">
         Route number
-        <span class="field__hint">e.g. 126, 161, 190</span>
       </label>
       <input
         id="route-input"
         type="text"
         inputmode="numeric"
         class="input-field search-card__route-input"
-        placeholder="e.g. 126"
+        placeholder=""
         value={routeInput}
         oninput={handleInput}
         autocomplete="off"
@@ -191,13 +190,7 @@
     color: var(--color-text);
   }
 
-  .field__hint {
-    font-size: 0.75rem;
-    font-weight: 400;
-    color: var(--color-text-muted);
-  }
-
-  .field__hint-text {
+.field__hint-text {
     font-size: 0.78125rem;
     color: var(--color-text-muted);
     margin: 0;
