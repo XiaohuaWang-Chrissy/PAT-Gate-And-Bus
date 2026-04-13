@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "WebFetch(domain:dougandadrienne.info)",
+      "Bash(npm run:*)",
+      "WebFetch(domain:portauthoritygate.com)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/wangxiaohua/Documents/CODE/PAT-Gate-And-Bus/src/lib/data/gates.json'\\)\\); print\\(sorted\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/wangxiaohua/Documents/CODE/PAT-Gate-And-Bus/src/lib/data/schedules.json'\\)\\); print\\('Routes with schedule data:', list\\(d.keys\\(\\)\\)[:10]\\); route = list\\(d.keys\\(\\)\\)[0]; deps = d[route].get\\('weekday', []\\); print\\('Sample departure:', deps[0] if deps else 'none'\\)\")",
+      "Bash(python3 -c ':*)"
+    ]
+  }
+}

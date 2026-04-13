@@ -1,0 +1,192 @@
+{
+  "_meta": {
+    "source": "dougandadrienne.info/njbus/pabtgates/",
+    "current_as_of": "June 2024",
+    "note": "Subject to change without notice. Verify at PABT before travel.",
+    "floor_key": {
+      "Lower Level": "Gates 1–99, ground/lower level. Active overnight only.",
+      "2nd floor":   "Gates 200–234. Main commuter level.",
+      "3rd floor":   "Gates 300–326. Upper level.",
+      "4th floor":   "Gates 400–425. Uppermost level."
+    }
+  },
+  "107": [
+    { "variant": "107 Local",                        "start": "06:00", "end": "22:00", "gate": "307",        "floor": "3rd floor"  },
+    { "variant": "107 Local",                        "start": "22:01", "end": "01:00", "gate": "306",        "floor": "3rd floor"  },
+    { "variant": "107 Local",                        "start": "01:01", "end": "05:59", "gate": "77",         "floor": "Lower Level" },
+    { "variant": "107X Express (weekdays only)",     "start": "06:00", "end": "01:00", "gate": "306",        "floor": "3rd floor"  },
+    { "variant": "107X Express (Sat & Sun)",         "start": "06:00", "end": "22:00", "gate": "306",        "floor": "3rd floor"  }
+  ],
+  "111": [
+    { "variant": "All trips",                        "start": "06:00", "end": "22:00", "gate": "223",        "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "317",        "floor": "3rd floor"  }
+  ],
+  "113": [
+    { "variant": "All trips (weekday, AM)",          "start": "06:00", "end": "14:59", "gate": "222",        "floor": "2nd floor"  },
+    { "variant": "All trips (weekday, PM)",          "start": "15:00", "end": "22:00", "gate": "223",        "floor": "2nd floor"  },
+    { "variant": "All trips (weekday, late night)",  "start": "22:01", "end": "01:00", "gate": "316",        "floor": "3rd floor"  },
+    { "variant": "All trips (weekend, daytime)",     "start": "06:00", "end": "22:00", "gate": "222",        "floor": "2nd floor"  },
+    { "variant": "All trips (weekend, late night)",  "start": "22:01", "end": "01:00", "gate": "316",        "floor": "3rd floor"  }
+  ],
+  "115": [
+    { "variant": "All trips (weekday, AM)",          "start": "06:00", "end": "15:29", "gate": "223",        "floor": "2nd floor"  },
+    { "variant": "All trips (weekday, PM)",          "start": "15:30", "end": "22:00", "gate": "207",        "floor": "2nd floor"  },
+    { "variant": "All trips (weekday, late night)",  "start": "22:01", "end": "01:00", "gate": "316",        "floor": "3rd floor"  },
+    { "variant": "All trips (Sat & Sun, daytime)",   "start": "06:00", "end": "22:00", "gate": "223",        "floor": "2nd floor"  },
+    { "variant": "All trips (Sat & Sun, late night)","start": "22:01", "end": "01:00", "gate": "316",        "floor": "3rd floor"  }
+  ],
+  "116": [
+    { "variant": "All trips",                        "start": "06:00", "end": "22:00", "gate": "207",        "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "317",        "floor": "3rd floor"  }
+  ],
+  "119": [
+    { "variant": "All trips",                        "start": "06:00", "end": "22:00", "gate": "210 door 1", "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "322",        "floor": "3rd floor"  },
+    { "variant": "All trips",                        "start": "01:01", "end": "05:59", "gate": "80",         "floor": "Lower Level" }
+  ],
+  "126": [
+    { "variant": "Except 126L trips",                "start": "06:00", "end": "22:00", "gate": "213",        "floor": "2nd floor"  },
+    { "variant": "126L trips only",                  "start": "06:00", "end": "22:00", "gate": "214",        "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "213",        "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "01:01", "end": "05:59", "gate": "79",         "floor": "Lower Level" }
+  ],
+  "127": [
+    { "variant": "All trips",                        "start": "06:00", "end": "22:00", "gate": "205 door 1", "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "313",        "floor": "3rd floor"  }
+  ],
+  "128": [
+    { "variant": "All trips",                        "start": "06:00", "end": "22:00", "gate": "212 door 1", "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "325",        "floor": "3rd floor"  },
+    { "variant": "All trips",                        "start": "01:01", "end": "05:59", "gate": "80",         "floor": "Lower Level" }
+  ],
+  "129": [
+    { "variant": "All trips",                        "start": "06:00", "end": "22:00", "gate": "206 door 1", "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "320",        "floor": "3rd floor"  }
+  ],
+  "139": [
+    { "variant": "All service (overnight, pre-dawn)","start": "04:00", "end": "05:59", "gate": "81",         "floor": "Lower Level" },
+    { "variant": "All stops to Freehold/Howell/Lakewood", "start": "06:00", "end": "15:00", "gate": "321",  "floor": "3rd floor"  },
+    { "variant": "All stops to Union Hill Park Ride or Freehold", "start": "15:12", "end": "16:00", "gate": "325", "floor": "3rd floor" },
+    { "variant": "Old Bridge Park Ride",             "start": "15:51", "end": "19:20", "gate": "324",        "floor": "3rd floor"  },
+    { "variant": "First stop Perrine Rd/Union Hill/Covered Bridge", "start": "16:12", "end": "19:00", "gate": "325", "floor": "3rd floor" },
+    { "variant": "Englishtown",                      "start": "16:48", "end": "18:36", "gate": "326",        "floor": "3rd floor"  },
+    { "variant": "All local service to Howell/Lakewood (evening)", "start": "19:10", "end": "01:00", "gate": "321", "floor": "3rd floor" },
+    { "variant": "All local stops to Aldrich Rd/Lakewood (overnight)", "start": "01:01", "end": "02:30", "gate": "81", "floor": "Lower Level" },
+    { "variant": "All local stops (weekend, overnight)", "start": "04:00", "end": "05:59", "gate": "81",    "floor": "Lower Level" },
+    { "variant": "All local stops (weekend, daytime)", "start": "06:00", "end": "01:00", "gate": "321",     "floor": "3rd floor"  },
+    { "variant": "All local stops (weekend, post-1am)", "start": "01:01", "end": "02:30", "gate": "81",     "floor": "Lower Level" }
+  ],
+  "144": [
+    { "variant": "Midland Park – Fair Lawn – New York", "start": "06:20", "end": "15:29", "gate": "224 door 2", "floor": "2nd floor" },
+    { "variant": "Midland Park – Fair Lawn – New York", "start": "15:30", "end": "19:30", "gate": "313",        "floor": "3rd floor" }
+  ],
+  "155": [
+    { "variant": "Weekdays only",                    "start": "15:30", "end": "19:30", "gate": "221 door 3", "floor": "2nd floor"  }
+  ],
+  "156": [
+    { "variant": "Local via Bergenline Ave",                 "start": "06:00", "end": "22:00", "gate": "200 door 2", "floor": "2nd floor" },
+    { "variant": "Local via Bergenline Ave",                 "start": "22:01", "end": "01:00", "gate": "305",        "floor": "3rd floor" },
+    { "variant": "Local via Bergenline Ave",                 "start": "01:01", "end": "05:59", "gate": "76",         "floor": "Lower Level" },
+    { "variant": "156R River Road–Port Imperial Express",    "start": "06:00", "end": "22:00", "gate": "201 door 1", "floor": "2nd floor" },
+    { "variant": "156R River Road–Port Imperial Express",    "start": "22:01", "end": "01:00", "gate": "304",        "floor": "3rd floor" }
+  ],
+  "158": [
+    { "variant": "All trips",                        "start": "06:00", "end": "22:00", "gate": "202 door 1", "floor": "2nd floor"  },
+    { "variant": "All trips",                        "start": "22:01", "end": "01:00", "gate": "301",        "floor": "3rd floor"  },
+    { "variant": "All trips",                        "start": "01:01", "end": "05:59", "gate": "76",         "floor": "Lower Level" }
+  ],
+  "159": [
+    { "variant": "Local via Bergenline Ave (morning & evening)", "start": "06:00", "end": "19:10", "gate": "200 door 1", "floor": "2nd floor" },
+    { "variant": "Local via Bergenline Ave (PM peak)",           "start": "15:10", "end": "19:20", "gate": "200 door 3", "floor": "2nd floor" },
+    { "variant": "Local via Bergenline Ave (evening)",           "start": "19:21", "end": "22:00", "gate": "200 door 1", "floor": "2nd floor" },
+    { "variant": "Local via Bergenline Ave",                     "start": "22:01", "end": "01:00", "gate": "305",        "floor": "3rd floor" },
+    { "variant": "Local via Bergenline Ave",                     "start": "01:01", "end": "05:59", "gate": "76",         "floor": "Lower Level" },
+    { "variant": "159R River Road Express (weekdays only)",      "start": "06:00", "end": "22:00", "gate": "201 door 3", "floor": "2nd floor" },
+    { "variant": "159R River Road Express (weekdays only)",      "start": "22:01", "end": "01:00", "gate": "304",        "floor": "3rd floor" },
+    { "variant": "159X 60th St. Express (weekdays only)",        "start": "06:00", "end": "22:00", "gate": "200 door 1", "floor": "2nd floor" }
+  ],
+  "160": [
+    { "variant": "160 Local & 160T Express (weekday morning)",    "start": "06:00", "end": "15:19", "gate": "224 door 4", "floor": "2nd floor" },
+    { "variant": "160 Local & 160T Express (weekday PM peak)",    "start": "15:20", "end": "19:30", "gate": "55",         "floor": "Lower Level" },
+    { "variant": "160 Local & 160T Express (weekday evening)",    "start": "19:31", "end": "22:00", "gate": "312",        "floor": "3rd floor"  },
+    { "variant": "160 Local & 160T Express (weekend daytime)",    "start": "06:00", "end": "22:00", "gate": "224 door 4", "floor": "2nd floor"  },
+    { "variant": "160 Local & 160T Express (late night, all days)","start": "22:01", "end": "01:00", "gate": "312",       "floor": "3rd floor"  }
+  ],
+  "161": [
+    { "variant": "All trips",                        "start": "06:00", "end": "01:00", "gate": "309",        "floor": "3rd floor"  },
+    { "variant": "All trips",                        "start": "01:01", "end": "05:59", "gate": "78",         "floor": "Lower Level" }
+  ],
+  "162": [
+    { "variant": "Weekdays only",                    "start": "15:00", "end": "22:00", "gate": "224 door 2", "floor": "2nd floor"  }
+  ],
+  "163": [
+    { "variant": "163 Local",                        "start": "06:00", "end": "22:00", "gate": "224 door 1", "floor": "2nd floor"  },
+    { "variant": "163 Local",                        "start": "22:01", "end": "01:00", "gate": "311",        "floor": "3rd floor"  },
+    { "variant": "163 Local",                        "start": "01:01", "end": "05:59", "gate": "75",         "floor": "Lower Level" },
+    { "variant": "163T Express (weekdays & Saturdays)", "start": "13:30", "end": "22:00", "gate": "224 door 3", "floor": "2nd floor" },
+    { "variant": "163T Express (weekdays & Saturdays)", "start": "22:01", "end": "01:00", "gate": "312",       "floor": "3rd floor"  },
+    { "variant": "163P Express (weekdays only)",      "start": "15:30", "end": "19:30", "gate": "313",        "floor": "3rd floor"  }
+  ],
+  "164": [
+    { "variant": "164 Local via Hasbrouck Heights",   "start": "06:00", "end": "22:00", "gate": "224 door 1", "floor": "2nd floor"  },
+    { "variant": "164 Local via Hasbrouck Heights",   "start": "22:01", "end": "01:00", "gate": "311",        "floor": "3rd floor"  },
+    { "variant": "164E Essex St.–Hackensack Express", "start": "12:00", "end": "22:00", "gate": "224 door 2", "floor": "2nd floor"  },
+    { "variant": "164E Essex St.–Hackensack Express", "start": "22:01", "end": "01:00", "gate": "312",        "floor": "3rd floor"  },
+    { "variant": "164X & 164B Saddle River Rd. Express", "start": "15:20", "end": "19:30", "gate": "53",     "floor": "Lower Level" }
+  ],
+  "165": [
+    { "variant": "165 Local via Blvd. East",          "start": "06:00", "end": "22:00", "gate": "212 door 1", "floor": "2nd floor"  },
+    { "variant": "165 Local via Blvd. East",          "start": "22:01", "end": "01:00", "gate": "325",        "floor": "3rd floor"  },
+    { "variant": "165 Local via Blvd. East",          "start": "01:01", "end": "05:59", "gate": "80",         "floor": "Lower Level" },
+    { "variant": "165P Parkway Express (weekdays only)", "start": "06:00", "end": "22:00", "gate": "311",     "floor": "3rd floor"  },
+    { "variant": "165R & 165RF Rte. 4 Express (weekdays)", "start": "06:00", "end": "22:00", "gate": "312",  "floor": "3rd floor"  },
+    { "variant": "165T Turnpike Express (weekdays)",   "start": "06:00", "end": "22:00", "gate": "310",       "floor": "3rd floor"  },
+    { "variant": "165T Turnpike Express (weekdays)",   "start": "22:01", "end": "01:00", "gate": "324",       "floor": "3rd floor"  },
+    { "variant": "165T Turnpike Express (Saturdays)",  "start": "12:00", "end": "22:00", "gate": "310",       "floor": "3rd floor"  }
+  ],
+  "166": [
+    { "variant": "166 Local via Blvd. East",          "start": "06:00", "end": "22:00", "gate": "212 door 1", "floor": "2nd floor"  },
+    { "variant": "166 Local via Blvd. East",          "start": "22:01", "end": "01:00", "gate": "325",        "floor": "3rd floor"  },
+    { "variant": "166 Local via Blvd. East",          "start": "01:01", "end": "05:59", "gate": "80",         "floor": "Lower Level" },
+    { "variant": "166T Turnpike Express (weekdays)",   "start": "12:00", "end": "22:00", "gate": "420",       "floor": "4th floor"  },
+    { "variant": "166T Turnpike Express (weekdays)",   "start": "22:01", "end": "01:00", "gate": "324",       "floor": "3rd floor"  },
+    { "variant": "166T Turnpike Express (Sat–Sun)",    "start": "12:00", "end": "22:00", "gate": "324",       "floor": "3rd floor"  },
+    { "variant": "166T Turnpike Express (Sat–Sun)",    "start": "22:01", "end": "01:00", "gate": "324",       "floor": "3rd floor"  },
+    { "variant": "166X I-95 Express (weekdays only)",  "start": "12:00", "end": "22:00", "gate": "418",       "floor": "4th floor"  }
+  ],
+  "168": [
+    { "variant": "168 Local via Blvd. East",          "start": "06:00", "end": "22:00", "gate": "212 door 2", "floor": "2nd floor"  },
+    { "variant": "168 Local via Blvd. East",          "start": "22:01", "end": "01:00", "gate": "325",        "floor": "3rd floor"  },
+    { "variant": "168T Turnpike Express",              "start": "06:00", "end": "22:00", "gate": "221 door 1", "floor": "2nd floor"  }
+  ],
+  "190": [
+    { "variant": "All trips",                          "start": "06:00", "end": "22:00", "gate": "232",       "floor": "2nd floor"  },
+    { "variant": "All trips",                          "start": "22:01", "end": "01:00", "gate": "310",       "floor": "3rd floor"  },
+    { "variant": "All trips",                          "start": "01:01", "end": "05:59", "gate": "78",        "floor": "Lower Level" }
+  ],
+  "191": [
+    { "variant": "All trips",                          "start": "06:00", "end": "22:00", "gate": "234 door 1","floor": "2nd floor"  },
+    { "variant": "All trips (PM peak, weekdays)",      "start": "16:00", "end": "22:00", "gate": "234 door 2","floor": "2nd floor"  },
+    { "variant": "All trips",                          "start": "22:01", "end": "01:00", "gate": "308",       "floor": "3rd floor"  }
+  ],
+  "192": [
+    { "variant": "192 & 199 Local",                    "start": "06:00", "end": "22:00", "gate": "234 door 1","floor": "2nd floor"  },
+    { "variant": "192 & 199 Local (PM peak weekdays)", "start": "15:10", "end": "21:30", "gate": "234 door 2","floor": "2nd floor"  },
+    { "variant": "192 & 199 Local",                    "start": "22:01", "end": "01:00", "gate": "308",       "floor": "3rd floor"  },
+    { "variant": "192X Allwood Express",               "start": "13:40", "end": "22:00", "gate": "234 door 1","floor": "2nd floor"  }
+  ],
+  "194": [
+    { "variant": "194 Local",                          "start": "06:00", "end": "22:00", "gate": "233 door 2","floor": "2nd floor"  },
+    { "variant": "194 Local",                          "start": "22:01", "end": "01:00", "gate": "307",       "floor": "3rd floor"  },
+    { "variant": "194P Parkway Express",               "start": "06:00", "end": "22:00", "gate": "303",       "floor": "3rd floor"  },
+    { "variant": "194X I-95 Express",                  "start": "06:00", "end": "22:00", "gate": "303",       "floor": "3rd floor"  },
+    { "variant": "194T Turnpike Express",               "start": "06:00", "end": "22:00", "gate": "231 door 2","floor": "2nd floor"  },
+    { "variant": "194E Essex Express",                 "start": "06:00", "end": "22:00", "gate": "231 door 2","floor": "2nd floor"  }
+  ],
+  "199": [
+    { "variant": "Clifton Local (daytime)",            "start": "06:00", "end": "15:09", "gate": "234 door 1","floor": "2nd floor"  },
+    { "variant": "Clifton Local (PM peak)",            "start": "15:10", "end": "21:30", "gate": "234 door 2","floor": "2nd floor"  },
+    { "variant": "Clifton Local (evening)",            "start": "21:31", "end": "22:00", "gate": "234 door 1","floor": "2nd floor"  },
+    { "variant": "Clifton Local",                      "start": "22:01", "end": "01:00", "gate": "308",       "floor": "3rd floor"  }
+  ]
+}

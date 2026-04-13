@@ -1,0 +1,25 @@
+{
+  "name": "pat-gate-and-bus",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist",
+    "gtfs": "node scripts/build-schedules.js",
+    "gtfs:date": "node scripts/build-schedules.js --date"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "gh-pages": "^6.3.0",
+    "svelte": "^5.55.1",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.4"
+  },
+  "dependencies": {
+    "svelte-routing": "^2.13.0"
+  }
+}
